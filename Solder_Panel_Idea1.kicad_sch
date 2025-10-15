@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dd6279d4-43d7-43e4-9231-fa72758d4140")
+	(uuid "7362c57b-4b77-49e6-8ae3-5269a841651c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "1043:1043"
@@ -912,42 +912,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual_x2"
+		(symbol "Swadge_Parts:SW_SPDT_1825232-1"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push_Dual_x2"
-				(at 0 -1.524 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Value" "SW_SPDT_1825232-1"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Footprint" "Swadge_Parts:1825232-1"
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -955,7 +945,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -964,7 +963,43 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Digikey" "A107673-ND"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost100" "45"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Substitutable" "Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C393937"
 				(at 0 0 0)
 				(effects
 					(font
@@ -973,7 +1008,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Dual_x2_0_1"
+			(property "ki_fp_filters" "Swadge_Parts:SW_SPDT_PCM12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_1825232-1_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -985,9 +1029,33 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1825232-1_0_1"
+				(rectangle
+					(start -3.81 -7.62)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -1.524 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -998,7 +1066,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -1008,24 +1076,66 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "SW_Push_Dual_x2_1_1"
+			(symbol "SW_SPDT_1825232-1_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -10.16 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,27 +1151,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -1078,20 +1168,437 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TL2201EEYA:TL2201EEYA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL2201EEYA"
+				(at -2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL2201EEYA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TL2201EEYA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL2201EEYA_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.794 7.2136)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.794 -2.9464)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 7.62)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.921 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 2.921 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -7.62 5.08 0)
 					(length 2.54)
-					(name "D"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1442,1113 +1949,1587 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "B Note"
+	(text "C Note"
 		(exclude_from_sim no)
-		(at 252.476 103.124 0)
+		(at 110.744 108.204 0)
 		(effects
 			(font
 				(size 3.048 3.048)
 			)
 		)
-		(uuid "2dcb2cb4-2898-41e2-bae5-8f265afa66ab")
+		(uuid "0ef34e38-c319-474f-8bb1-07eab031bf07")
+	)
+	(text "G Note"
+		(exclude_from_sim no)
+		(at 200.406 108.966 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "27c727f0-4726-4e8b-9b2f-d275cea10995")
+	)
+	(text "F Note"
+		(exclude_from_sim no)
+		(at 177.546 108.966 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "2bc0fdf3-59dd-4c6c-ab0e-3ffb3e9082e2")
+	)
+	(text "E Note"
+		(exclude_from_sim no)
+		(at 155.956 108.966 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "3366b82a-ac04-4363-86f8-30453db9e834")
 	)
 	(text "https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/"
 		(exclude_from_sim no)
-		(at 184.15 114.3 0)
+		(at 177.8 120.65 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 			)
 		)
-		(uuid "34317c59-9a61-4b10-aae8-501f11c90c8e")
-	)
-	(text "C Note"
-		(exclude_from_sim no)
-		(at 117.094 101.854 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "56e76b24-bb67-4e6a-bc30-d081f22aeadc")
-	)
-	(text "G Note"
-		(exclude_from_sim no)
-		(at 206.756 102.616 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "95db9bc0-98e7-4a35-bbd5-c41c704eac59")
+		(uuid "63cb6c9c-7f5c-4c34-b50e-ed9cf6f856c8")
 	)
 	(text "A Note"
 		(exclude_from_sim no)
-		(at 229.362 102.616 0)
+		(at 223.012 108.966 0)
 		(effects
 			(font
 				(size 3.048 3.048)
 			)
 		)
-		(uuid "a1a332e7-d813-4a94-b802-8c0ff8cc0de1")
+		(uuid "76eba1eb-567d-46ff-afdb-2e47e346d374")
 	)
-	(text "F Note"
+	(text "B Note"
 		(exclude_from_sim no)
-		(at 183.896 102.616 0)
+		(at 246.126 109.474 0)
 		(effects
 			(font
 				(size 3.048 3.048)
 			)
 		)
-		(uuid "a7adaf98-147e-43b5-83ac-94b2d53c682c")
+		(uuid "7f1b6941-7ec8-4abc-a6c7-cef86b43fbbd")
 	)
 	(text "D Note"
 		(exclude_from_sim no)
-		(at 140.208 102.616 0)
+		(at 133.858 108.966 0)
 		(effects
 			(font
 				(size 3.048 3.048)
 			)
 		)
-		(uuid "bfa239c3-cc13-4e44-bc2c-95ef360fc6a7")
-	)
-	(text "E Note"
-		(exclude_from_sim no)
-		(at 162.306 102.616 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "f34cf5e6-1eab-4dfd-a084-6d10c44c2c7d")
+		(uuid "9b1543f7-d1a8-4b76-a099-4ca4fff82575")
 	)
 	(junction
-		(at 85.09 57.15)
+		(at 144.78 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02e9d1f1-df7e-4270-aa3d-0b6378065d00")
+		(uuid "0d1d1933-f5c4-44fc-b34a-cecad0461cc2")
 	)
 	(junction
-		(at 118.11 82.55)
+		(at 233.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0373ebc7-974c-4091-b996-ee38f908d223")
+		(uuid "168ae90a-0497-4bc8-926b-3e0048620962")
 	)
 	(junction
-		(at 252.73 53.34)
+		(at 129.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c9f46b5-fb9c-4a09-9b98-00158c531256")
+		(uuid "1991db94-af2c-447c-8476-351652c3c6dc")
 	)
 	(junction
-		(at 162.56 82.55)
+		(at 177.8 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20d146df-42b5-40f3-9576-31c61df48b4c")
+		(uuid "1a1630c9-ffd9-4a4e-a5fc-c25e87a6faeb")
 	)
 	(junction
-		(at 184.15 53.34)
+		(at 200.66 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3729cf06-c4e4-46eb-87d4-dfceb7e37d71")
+		(uuid "1f74ec5b-3765-4fc5-b979-68ab1f41991c")
 	)
 	(junction
-		(at 184.15 82.55)
+		(at 166.37 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37b0868a-e02e-4b2f-be96-0cc8e94b8358")
+		(uuid "24a06329-a18a-4d66-a5c3-4ac415ed56b0")
 	)
 	(junction
-		(at 207.01 19.05)
+		(at 111.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "380ca9a0-2d1d-4f84-9bec-6216f561d2be")
+		(uuid "2c1f57f0-8ccd-4761-9e21-1b1d2ff8e668")
 	)
 	(junction
-		(at 184.15 19.05)
+		(at 210.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "464b89e6-5e5f-43ad-9a60-993419fe2364")
+		(uuid "2f9b7105-63a2-4d57-b844-66dc5dc5ca01")
 	)
 	(junction
-		(at 72.39 19.05)
+		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4655cc89-fda9-4c6b-936d-3225bd57ce98")
+		(uuid "32d9f04e-0d90-4ff0-a69d-bb9a011b495e")
 	)
 	(junction
-		(at 140.97 82.55)
+		(at 200.66 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47d7703a-3948-4035-b61e-6d8e7c9a2078")
+		(uuid "42f3c383-ad4a-41d0-a3a3-8668274bf436")
 	)
 	(junction
-		(at 229.87 53.34)
+		(at 121.92 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "512010d3-90bc-48b2-9ebc-89223c01c64b")
+		(uuid "44a9201b-56e8-4080-a239-2160c0357f28")
 	)
 	(junction
-		(at 207.01 53.34)
+		(at 156.21 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "745514e2-6067-4c09-b3c0-e91aa4b7c5ff")
+		(uuid "499475c6-0182-4650-9b8e-38c5eb9ba6d8")
 	)
 	(junction
-		(at 162.56 53.34)
+		(at 195.58 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ac8eb33-0913-40bc-b2a8-2b618c25aaa7")
+		(uuid "531c6b40-89fd-4be2-9ec9-e81a1ebf5815")
 	)
 	(junction
-		(at 140.97 53.34)
+		(at 187.96 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fd2bbc5-bc23-4b0e-b920-28a5e2f3f97d")
+		(uuid "5b84b599-fd3f-4732-a747-bd7d51961016")
 	)
 	(junction
-		(at 162.56 19.05)
+		(at 45.72 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab6f525d-0db0-4006-90cc-38f6aef4f2bc")
+		(uuid "5ca2cf22-d3ab-4922-bf18-cac813b22cdd")
 	)
 	(junction
-		(at 54.61 19.05)
+		(at 242.57 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b07d8b09-7b3f-4454-8ae3-d74f73454010")
+		(uuid "60d18c43-6af2-4faf-8e2c-57bc35a98438")
 	)
 	(junction
-		(at 207.01 82.55)
+		(at 106.68 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b759cc92-d8f4-4605-a57d-4c8087241645")
+		(uuid "650f4f04-a3c2-4ab0-9c96-c78d0bd8a6d9")
 	)
 	(junction
-		(at 229.87 19.05)
+		(at 172.72 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8d8f85f-7a8f-427d-a122-437f65b944ae")
+		(uuid "687090a6-69c0-4480-a770-f3a6fd221d97")
 	)
 	(junction
-		(at 118.11 19.05)
+		(at 134.62 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c016739d-c4cd-4462-afa2-fba4b5d8d7de")
+		(uuid "68cd32a1-a64e-4421-a35b-25aa403bb293")
 	)
 	(junction
-		(at 118.11 53.34)
+		(at 156.21 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c53b182e-df24-4e2e-a416-5ede0df5b39e")
+		(uuid "7139ee4f-3723-4c24-8673-9ebee17e5c99")
 	)
 	(junction
-		(at 140.97 19.05)
+		(at 48.26 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca7fc1de-bc0a-4440-be39-8296622a5886")
+		(uuid "7ccf1e40-8921-41bc-a4e0-9be98fb29a41")
 	)
 	(junction
-		(at 52.07 96.52)
+		(at 78.74 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb495082-ee9f-4bf2-beb1-21cae7075c2a")
+		(uuid "94b0e0c8-b414-435f-850b-3efbc165093c")
 	)
 	(junction
-		(at 72.39 96.52)
+		(at 66.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebc5bfa5-fbf7-4f25-b408-473104c18fbd")
+		(uuid "9f8d5e9e-3d65-40c6-9532-a26d1eab4f3b")
 	)
 	(junction
-		(at 229.87 82.55)
+		(at 134.62 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6a75005-cefe-47f5-85c2-9cbe797cc5de")
+		(uuid "b27c4392-a352-439d-9958-ebda1fb8132d")
+	)
+	(junction
+		(at 66.04 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b412bd71-8aa7-49f6-8968-ee6a77d670ec")
+	)
+	(junction
+		(at 177.8 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b540fc2b-d1a7-4877-9de3-6748358517a0")
 	)
+	(junction
+		(at 218.44 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c79a8e67-7f47-47a6-8789-592e3e5d6c5a")
+	)
+	(junction
+		(at 223.52 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42f27e4-cf31-426b-9eff-9d278c37f1d3")
+	)
+	(junction
+		(at 111.76 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee82bfc-940c-4199-848d-8847961701f7")
+	)
+	(junction
+		(at 223.52 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7597ac0-1d22-44a2-8782-c5781c495f23")
+	)
+	(no_connect
+		(at 34.29 33.02)
+		(uuid "00fb34bc-7c12-4ea4-8665-1bfaa98247b2")
+	)
+	(no_connect
+		(at 36.83 33.02)
+		(uuid "109993d8-1e0e-469a-9b2d-6fb4332a38ec")
+	)
+	(no_connect
+		(at 121.92 63.5)
+		(uuid "1c73feb1-2c7c-4503-b674-c2aaa2152c90")
+	)
+	(no_connect
+		(at 233.68 53.34)
+		(uuid "33896992-39ec-47cf-90f2-0652109bcabb")
+	)
+	(no_connect
+		(at 40.64 20.32)
+		(uuid "44a2f770-41fe-4203-a577-bd7ac7dbb322")
+	)
+	(no_connect
+		(at 233.68 63.5)
+		(uuid "474c3feb-ba4a-4244-987e-692fe84ff4f0")
+	)
+	(no_connect
+		(at 166.37 63.5)
+		(uuid "52bca1fe-d2fe-4ae9-8442-ee38d9539f66")
+	)
+	(no_connect
+		(at 210.82 53.34)
+		(uuid "5795ccbf-ea31-49f5-8378-26044c7674ee")
+	)
+	(no_connect
+		(at 187.96 63.5)
+		(uuid "5b4e1194-0799-4117-8bc2-965889d03450")
+	)
+	(no_connect
+		(at 144.78 63.5)
+		(uuid "68f61f88-357b-4abe-854a-5d56038a5570")
+	)
+	(no_connect
+		(at 121.92 53.34)
+		(uuid "69db33bb-bd3f-4aaf-9a1a-73fea4211a68")
+	)
+	(no_connect
+		(at 257.81 53.34)
+		(uuid "6a47e656-415d-44a9-8e11-92d013c8e520")
+	)
+	(no_connect
+		(at 210.82 63.5)
+		(uuid "98d4feb2-e4cf-4b4f-874b-baad24fb678d")
+	)
+	(no_connect
+		(at 257.81 63.5)
+		(uuid "aa00c908-6d4d-48d1-9013-a3ef64bdbd61")
+	)
+	(no_connect
+		(at 187.96 53.34)
+		(uuid "baba8953-a997-49bf-9b69-c47efe708975")
+	)
+	(no_connect
+		(at 166.37 53.34)
+		(uuid "d02e80b2-0613-4b4c-ab1c-e2386e81ad63")
+	)
+	(no_connect
+		(at 144.78 53.34)
+		(uuid "fa3e44c3-a03c-4cbf-87a6-91fd7313e17a")
+	)
+	(wire
+		(pts
+			(xy 210.82 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d1e9a4-d5d1-426b-b8f0-9baf804a8b32")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014a0423-4a19-4119-bf5d-c87e35942c1b")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e90bf1-27c3-4bdf-8861-bf5e6b99bace")
+	)
+	(wire
+		(pts
+			(xy 246.38 38.1) (xy 246.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052ce634-218d-40ac-8810-7d4f96a0972e")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bcd54a-195c-4447-be8b-5e17fda41104")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f164ea-a080-41dc-8a14-1ede727ad3bf")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1ab361-35dd-4be9-9009-246922eb339e")
+	)
+	(wire
+		(pts
+			(xy 156.21 30.48) (xy 156.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de4b91a-173f-4fbc-a0d9-4cadf12e8baa")
+	)
+	(wire
+		(pts
+			(xy 177.8 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f552446-e233-4b89-a8dd-3d4747977ef9")
+	)
+	(wire
+		(pts
+			(xy 246.38 88.9) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1073001c-9c8c-41bb-a3a2-4186e473998b")
+	)
+	(wire
+		(pts
+			(xy 223.52 69.85) (xy 223.52 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b75dce-3ab2-4866-8403-dca509396867")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ccc803-d401-440f-b87c-1388ce771c59")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 156.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f51695-505d-4375-a8e7-391e2b97b489")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 151.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab81acf-09ae-4301-afbf-53d0fe382e56")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eb5046-5b63-495a-a03f-17d9b2bd93b1")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b192db-8a66-410a-b3ee-56483bdc09ad")
+	)
+	(wire
+		(pts
+			(xy 53.34 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a51c4c-1c1c-43a0-8dee-360633b43134")
+	)
+	(wire
+		(pts
+			(xy 45.72 49.53) (xy 45.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246c1bcc-7350-438a-b595-a3fc5ef37a10")
+	)
+	(wire
+		(pts
+			(xy 134.62 88.9) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287043d2-8689-45f8-bad2-49d8870c9f74")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e9c698-d561-4653-945e-7db0fc084992")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2935d4be-3d4d-4d0d-b0f9-3e73da1399c4")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfe1b6b-9827-4d90-9bd0-4165128b2fc3")
+	)
+	(wire
+		(pts
+			(xy 195.58 53.34) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd899cd-5660-4a8b-9b98-c0d5292963be")
+	)
+	(wire
+		(pts
+			(xy 48.26 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3047ee72-dbc9-42bf-8c50-f80bf4a0e767")
+	)
+	(wire
+		(pts
+			(xy 257.81 59.69) (xy 242.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353500c0-456c-4cf0-8adf-8bf44a6cdea2")
+	)
+	(wire
+		(pts
+			(xy 233.68 69.85) (xy 223.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38edad87-0924-4aca-8c32-ec1bce674b56")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fc73c6-f038-4205-9b4a-ccb22fd179f6")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a243d4c-ed35-418d-9b0c-58a040cbb668")
+	)
+	(wire
+		(pts
+			(xy 111.76 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2fed53-d0be-4d93-bd07-4499709abaa4")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3caaaa3b-5373-4fce-9925-d6c7d3ac3f84")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d22610f-05d3-441d-9bd3-50ca29ff3e49")
+	)
+	(wire
+		(pts
+			(xy 21.59 102.87) (xy 21.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da8daae-864f-4266-8e0a-f1876baa25c7")
+	)
+	(wire
+		(pts
+			(xy 111.76 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41475a05-b907-4ec2-b92a-88b8577700b6")
+	)
+	(wire
+		(pts
+			(xy 210.82 60.96) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442d301a-0f85-47f3-9aee-65340266fb7c")
+	)
+	(wire
+		(pts
+			(xy 166.37 68.58) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4452091b-62bf-49d8-89b6-13e38a3e64e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f240fb-9484-4f1b-bb4a-503da02485ee")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d217961-db08-4b5b-bd2b-e1612107e177")
+	)
 	(wire
 		(pts
-			(xy 118.11 19.05) (xy 72.39 19.05)
+			(xy 166.37 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "086f41c7-beaa-416b-bb83-1bd22594c861")
+		(uuid "4d4e6aba-2f3f-4df0-8297-e6a38b2263c2")
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 90.17 43.18)
+			(xy 246.38 69.85) (xy 246.38 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "094278a2-5b2f-4805-9b1f-7e51e4a86494")
+		(uuid "4e20cc35-f160-429d-8900-29d79bd49057")
 	)
 	(wire
 		(pts
-			(xy 27.94 96.52) (xy 52.07 96.52)
+			(xy 92.71 57.15) (xy 96.52 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09590dfd-bdf4-49db-a7ab-70e1f6f9e2c9")
+		(uuid "53070109-8661-46c1-9ba0-6db0b6742167")
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 72.39)
+			(xy 218.44 60.96) (xy 218.44 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a727b35-32ec-4fa4-ad26-20f7b56e5b15")
+		(uuid "53ece5a7-7fa9-4559-af64-a3724c94449b")
 	)
 	(wire
 		(pts
-			(xy 252.73 80.01) (xy 252.73 82.55)
+			(xy 177.8 38.1) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1167b3e4-c088-4aa6-95dd-3763ae7cf305")
+		(uuid "552b1513-21f7-4593-bd03-9fee951a4d2e")
 	)
 	(wire
 		(pts
-			(xy 207.01 50.8) (xy 207.01 53.34)
+			(xy 129.54 53.34) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "152cf0b5-16bd-4c96-af8d-61dce6b00c93")
+		(uuid "57841f8b-3ee9-4245-8888-81f1deabd3f5")
 	)
 	(wire
 		(pts
-			(xy 140.97 24.13) (xy 140.97 19.05)
+			(xy 144.78 60.96) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "158f9cbd-fa6e-4b9c-90ee-18ee132627b9")
+		(uuid "5861d378-4038-4771-bf7c-29aa6b6fa845")
 	)
 	(wire
 		(pts
-			(xy 252.73 82.55) (xy 229.87 82.55)
+			(xy 257.81 58.42) (xy 257.81 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "183cb1ff-6578-45ae-82c6-86ed142bb981")
+		(uuid "59eb0520-25b3-48aa-b93b-91be061355ef")
 	)
 	(wire
 		(pts
-			(xy 54.61 48.26) (xy 54.61 19.05)
+			(xy 144.78 60.96) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20ebb125-5fc7-4f8a-b7ef-be68d35589c3")
+		(uuid "5e1cd5a9-dc12-4660-9b7a-18ed9cfbc649")
 	)
 	(wire
 		(pts
-			(xy 85.09 57.15) (xy 85.09 82.55)
+			(xy 218.44 59.69) (xy 218.44 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28747c54-4360-4530-8bd6-283516043af8")
+		(uuid "5e3d95a9-cdc3-4169-b0d8-a238920e2435")
 	)
 	(wire
 		(pts
-			(xy 229.87 67.31) (xy 229.87 72.39)
+			(xy 106.68 53.34) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd3b72a-1406-4645-be34-087d26a179c7")
+		(uuid "5e8ca716-cf41-4fc2-9bab-2b63c585fd74")
 	)
 	(wire
 		(pts
-			(xy 229.87 53.34) (xy 252.73 53.34)
+			(xy 111.76 97.79) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34c2f015-c7b9-4006-b2b6-0d10ca960ecd")
+		(uuid "60b53be9-0e61-40a7-a814-87c6ab7c383c")
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 52.07 96.52)
+			(xy 21.59 102.87) (xy 45.72 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b53a54-1100-4492-bb11-726513dd1407")
+		(uuid "6348a4e4-5056-4c84-ba72-9cecb3979fcd")
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 184.15 53.34)
+			(xy 200.66 71.12) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38819b0a-100d-453c-b558-0f4cec3c6655")
+		(uuid "638f5fcb-70ff-426c-9a12-29e3ba00e5f2")
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 162.56 40.64)
+			(xy 200.66 30.48) (xy 200.66 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f516de3-bc35-4854-bb4e-971ee70e0c8d")
+		(uuid "65404276-f15b-4f05-aabd-825ed6202185")
 	)
 	(wire
 		(pts
-			(xy 207.01 80.01) (xy 207.01 82.55)
+			(xy 177.8 71.12) (xy 177.8 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4219e46a-2286-4147-849d-21ffaea2e619")
+		(uuid "65a2d34b-38f2-4306-8764-f88c9d4751a8")
 	)
 	(wire
 		(pts
-			(xy 184.15 67.31) (xy 184.15 72.39)
+			(xy 172.72 53.34) (xy 172.72 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42f0ccbe-ba35-42fa-96a4-dedee26fd858")
+		(uuid "692d8052-55dc-4fd4-a2e0-05d647ecd51c")
 	)
 	(wire
 		(pts
-			(xy 252.73 24.13) (xy 252.73 19.05)
+			(xy 53.34 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46fe7421-a734-4519-8740-000b677e283b")
+		(uuid "69a1dfff-069b-43be-a503-3030559d5d64")
 	)
 	(wire
 		(pts
-			(xy 162.56 53.34) (xy 184.15 53.34)
+			(xy 257.81 69.85) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4879fb61-c5bf-4e47-a920-06fe47e3d566")
+		(uuid "707d5bc2-0268-43c7-8fc2-4695ce193512")
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 72.39 96.52)
+			(xy 223.52 38.1) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51ce95e4-8a94-41da-9a97-377b3038f504")
+		(uuid "73403786-059c-41a1-adb6-fb2a94591a50")
 	)
 	(wire
 		(pts
-			(xy 140.97 31.75) (xy 140.97 40.64)
+			(xy 134.62 25.4) (xy 156.21 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "548cfc48-f85b-4b87-ad83-e12c4011fb54")
+		(uuid "7506f510-8b7c-4e6b-9fc0-93eacc7ba199")
 	)
 	(wire
 		(pts
-			(xy 207.01 53.34) (xy 229.87 53.34)
+			(xy 242.57 53.34) (xy 242.57 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55a540a9-eb82-45ac-aa76-48e12a274031")
+		(uuid "7a360a26-cf7a-4bc1-af39-64d7e252c49f")
 	)
 	(wire
 		(pts
-			(xy 27.94 96.52) (xy 27.94 49.53)
+			(xy 144.78 71.12) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e80ae2-774c-47ca-8a58-a80f6a918938")
+		(uuid "7aee61cf-7070-4c41-acb0-7cdc03f4d588")
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 140.97 57.15)
+			(xy 156.21 71.12) (xy 156.21 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b207d21-40c2-406c-a615-fc4679e3bfe9")
+		(uuid "7bf9fd67-73f9-4509-8d22-30000958a6be")
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 118.11 80.01)
+			(xy 134.62 30.48) (xy 134.62 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b62bf33-14b8-4097-ac8d-3b24698b1e70")
+		(uuid "7d097762-fdd5-4be9-81dc-610287844843")
 	)
 	(wire
 		(pts
-			(xy 118.11 67.31) (xy 118.11 72.39)
+			(xy 257.81 68.58) (xy 257.81 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60201c94-299f-4ed9-92f2-68e6b0094a3d")
+		(uuid "7d0f5677-2f92-490b-8541-0a00a5385ac1")
 	)
 	(wire
 		(pts
-			(xy 54.61 19.05) (xy 72.39 19.05)
+			(xy 246.38 86.36) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60932f99-6ce6-4bc3-a679-d4fe84ba1fbf")
+		(uuid "7d246f1e-338f-4824-814f-d05509c21485")
 	)
 	(wire
 		(pts
-			(xy 229.87 53.34) (xy 229.87 57.15)
+			(xy 111.76 88.9) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61b8f6c1-0332-4cae-81a0-7503a53a889e")
+		(uuid "826f4248-c48f-4c31-869c-0515df2b83ce")
 	)
 	(wire
 		(pts
-			(xy 252.73 31.75) (xy 252.73 40.64)
+			(xy 111.76 102.87) (xy 66.04 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6280f948-1b95-4c51-a6b2-1cb717d87f9a")
+		(uuid "856e584c-75d5-4c6f-b985-3b9474be7067")
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 102.87 50.8)
+			(xy 187.96 58.42) (xy 187.96 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62f95468-ec04-4478-b670-be658b5731c4")
+		(uuid "85996166-6413-404f-9463-9b4b209ecebb")
 	)
 	(wire
 		(pts
-			(xy 207.01 19.05) (xy 229.87 19.05)
+			(xy 111.76 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63a17a84-ffc6-482f-a30b-69b8b2384997")
+		(uuid "8b937f70-63d8-4506-8d9a-82041e0e02ba")
 	)
 	(wire
 		(pts
-			(xy 207.01 24.13) (xy 207.01 19.05)
+			(xy 129.54 60.96) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6685f151-ed86-4ecf-84df-c8d19fe8770a")
+		(uuid "8d34987d-7e06-45c1-83c8-34b4615bb098")
 	)
 	(wire
 		(pts
-			(xy 184.15 53.34) (xy 207.01 53.34)
+			(xy 200.66 53.34) (xy 195.58 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68189a4b-fa48-40c1-9bbe-d0849c1a2a34")
+		(uuid "8f12f303-6e41-4fdb-99a7-1f6eefeeabc5")
 	)
 	(wire
 		(pts
-			(xy 184.15 53.34) (xy 184.15 57.15)
+			(xy 177.8 30.48) (xy 177.8 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dac4650-0b6e-4ad4-aa04-5509a9b08542")
+		(uuid "906a447d-8301-46d0-91a2-9a7aa5792422")
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 162.56 53.34)
+			(xy 30.48 22.86) (xy 21.59 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71a3d47a-0d01-4632-ae81-2d3f9564170d")
+		(uuid "9304ebe1-fa1a-48ef-8355-e641b27cea4b")
 	)
 	(wire
 		(pts
-			(xy 118.11 19.05) (xy 140.97 19.05)
+			(xy 200.66 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "732b7b20-3f9b-4ed8-ad39-2d7ac262cb40")
+		(uuid "9ba723c0-8578-4606-86bd-1b8c7294a1e7")
 	)
 	(wire
 		(pts
-			(xy 140.97 19.05) (xy 162.56 19.05)
+			(xy 233.68 58.42) (xy 233.68 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "742cc334-f438-4d2c-891e-2103454b3004")
+		(uuid "9bcd1eae-6e28-49dd-9937-5889ef24c92d")
 	)
 	(wire
 		(pts
-			(xy 140.97 50.8) (xy 140.97 53.34)
+			(xy 200.66 25.4) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74706bb3-1288-4bc9-a0cb-85c07819cd63")
+		(uuid "9bdfafb9-280d-44ea-a196-b9d5f1b47495")
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 118.11 82.55)
+			(xy 177.8 53.34) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78a70191-12ea-40bd-8b89-a3d273dab245")
+		(uuid "9d1347d6-e008-4a3d-9141-2559efc4c078")
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 140.97 82.55)
+			(xy 210.82 68.58) (xy 210.82 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c0845d5-5289-4238-9b7c-7505a0684cfb")
+		(uuid "a0ae5f54-6839-4083-953c-c29f14efad05")
 	)
 	(wire
 		(pts
-			(xy 207.01 31.75) (xy 207.01 40.64)
+			(xy 106.68 60.96) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cefbf88-0fe0-4109-a7d6-f09c863160fa")
+		(uuid "a26807c4-b465-46c3-9309-67882a36cde4")
 	)
 	(wire
 		(pts
-			(xy 118.11 31.75) (xy 118.11 40.64)
+			(xy 134.62 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fcb2500-a277-4a45-9136-d8ca0f1bdf5a")
+		(uuid "a26dd9a2-9206-4724-9000-6fa7b7dfec2c")
 	)
 	(wire
 		(pts
-			(xy 184.15 82.55) (xy 162.56 82.55)
+			(xy 111.76 30.48) (xy 111.76 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8060a352-2035-4f6c-b2fd-c0dd821d11d2")
+		(uuid "a4f4fb78-c21e-4bdf-925b-bf98a562f8e6")
 	)
 	(wire
 		(pts
-			(xy 162.56 53.34) (xy 162.56 57.15)
+			(xy 187.96 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "812bd80e-302c-4ad8-bada-627585397bb1")
+		(uuid "aa5d0628-a5cb-444b-b067-bb9910635a73")
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 90.17 53.34)
+			(xy 210.82 71.12) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86841b58-450e-46a8-88f1-120e3bb0b6a0")
+		(uuid "ad1f47a3-1b30-4c0e-8308-ca89bbc2ac7d")
 	)
 	(wire
 		(pts
-			(xy 252.73 50.8) (xy 252.73 53.34)
+			(xy 111.76 88.9) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87bb5b20-19b1-4a48-89ca-5bae2fa76eed")
+		(uuid "ad47780b-2350-47af-8f44-70d0159dcd83")
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 118.11 83.82)
+			(xy 78.74 63.5) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88ab418d-c778-4734-ba7e-486bd3ff5950")
+		(uuid "b0be4760-0c43-497e-8e1e-8c19ccdd59e6")
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 162.56 82.55)
+			(xy 111.76 71.12) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89803407-4954-4545-8db8-fd67668db3a4")
+		(uuid "b0f3741c-b5dc-44e1-908d-e7065ac41a35")
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 52.07 43.18)
+			(xy 166.37 71.12) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "962a91cf-3962-4fee-8d46-d9e964600a58")
+		(uuid "b2012b53-f7f4-4a8e-b7cb-9d90aa6b2a52")
 	)
 	(wire
 		(pts
-			(xy 162.56 24.13) (xy 162.56 19.05)
+			(xy 172.72 60.96) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "975da85f-3318-41f9-8b79-ac6c65aed4ab")
+		(uuid "b3545202-85ac-4596-a587-04ad4bd13c22")
 	)
 	(wire
 		(pts
-			(xy 54.61 19.05) (xy 27.94 19.05)
+			(xy 134.62 38.1) (xy 134.62 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9926d29d-1734-48be-9897-9c7be5abf6b8")
+		(uuid "b3ba15ec-6653-43f6-a7bb-f1d872754fa5")
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 118.11 53.34)
+			(xy 177.8 88.9) (xy 156.21 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "993f1534-1a4f-450c-b898-5492dedeb257")
+		(uuid "ba72ec3c-a767-460f-b312-b048b6d2607c")
 	)
 	(wire
 		(pts
-			(xy 162.56 50.8) (xy 162.56 53.34)
+			(xy 121.92 71.12) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d1d038b-2714-40f2-ac9c-419790c90fd5")
+		(uuid "be9e1f26-cd9f-48f4-9140-11c539b0e170")
 	)
 	(wire
 		(pts
-			(xy 207.01 67.31) (xy 207.01 72.39)
+			(xy 45.72 102.87) (xy 66.04 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fccdafd-cb17-44e3-a5b7-1b1928212f96")
+		(uuid "c0b5a1c7-5e1e-43eb-bf86-c590b189c640")
 	)
 	(wire
 		(pts
-			(xy 252.73 67.31) (xy 252.73 72.39)
+			(xy 210.82 58.42) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a33785bd-6b2f-4e16-9e1d-f35f591690b6")
+		(uuid "c1078425-ed9c-42d2-871c-194f422b8d4a")
 	)
 	(wire
 		(pts
-			(xy 59.69 38.1) (xy 57.15 38.1)
+			(xy 218.44 53.34) (xy 218.44 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a922a659-039a-49f7-99bf-f32a581b41ca")
+		(uuid "c11316aa-40d3-4b85-9f4b-1c8cc904b416")
 	)
 	(wire
 		(pts
-			(xy 207.01 82.55) (xy 184.15 82.55)
+			(xy 233.68 68.58) (xy 233.68 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afd373cd-c52d-4afd-a68b-667744e0e69a")
+		(uuid "c3a0231b-d79a-457c-a173-e336448948aa")
 	)
 	(wire
 		(pts
-			(xy 184.15 24.13) (xy 184.15 19.05)
+			(xy 223.52 25.4) (xy 246.38 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b15dad06-c02d-4984-9956-cf06e0d0bbbc")
+		(uuid "c6462ccb-0d8c-4634-b80c-d085951e86e1")
 	)
 	(wire
 		(pts
-			(xy 118.11 24.13) (xy 118.11 19.05)
+			(xy 78.74 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b80d49bf-6f4f-4833-adc7-928ec16bc634")
+		(uuid "c6954fbc-b1c6-4d17-b965-c0dbb34e181a")
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 118.11 53.34)
+			(xy 233.68 59.69) (xy 242.57 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08e7e2d-922e-4fe4-913b-469d293e8b15")
+		(uuid "ce185ed6-1780-4cd1-b388-d1cbe9995dae")
 	)
 	(wire
 		(pts
-			(xy 229.87 80.01) (xy 229.87 82.55)
+			(xy 106.68 60.96) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1ae0ec6-d16b-4cd0-8733-2453e1939a2b")
+		(uuid "ce51de05-fb13-41d1-8d6a-cc3b6c7080b7")
 	)
 	(wire
 		(pts
-			(xy 229.87 31.75) (xy 229.87 40.64)
+			(xy 151.13 53.34) (xy 151.13 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c20709d7-797e-4d22-ae25-ce98f8bb5c14")
+		(uuid "d0be5e53-c39c-45e0-a2e0-75e4ec4913d3")
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 54.61 48.26)
+			(xy 111.76 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c40e8539-a64b-4fb9-b311-c3f612b0505b")
+		(uuid "d43d5ded-0388-4671-8a53-418c356acd41")
 	)
 	(wire
 		(pts
-			(xy 184.15 31.75) (xy 184.15 40.64)
+			(xy 78.74 54.61) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c64d8466-07b8-4011-aa7c-afc2573e3c99")
+		(uuid "d45e38d9-c95c-4ce5-89e2-e61c7958e66d")
 	)
 	(wire
 		(pts
-			(xy 229.87 82.55) (xy 207.01 82.55)
+			(xy 156.21 25.4) (xy 177.8 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd944ee5-a602-41a1-80ad-cf64dc264c35")
+		(uuid "d635c518-072b-44e8-a823-da7119a1e63b")
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 85.09 57.15)
+			(xy 187.96 71.12) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdb47791-70a7-423f-852a-b6e145d8438d")
+		(uuid "d6906ed4-8db5-4ae2-9199-602784fd0479")
 	)
 	(wire
 		(pts
-			(xy 184.15 19.05) (xy 207.01 19.05)
+			(xy 111.76 38.1) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d065ee1d-b5b4-4cb4-9e66-700b72a33caf")
+		(uuid "d7ed9346-7bdd-431e-9ffc-56bde1a96967")
 	)
 	(wire
 		(pts
-			(xy 229.87 24.13) (xy 229.87 19.05)
+			(xy 242.57 59.69) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d20cb22f-17d0-4502-b8fd-c83bc91b7053")
+		(uuid "d8ec9383-b59c-4566-adaf-67bf30555ec5")
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 140.97 80.01)
+			(xy 121.92 60.96) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d380054f-02cd-4f72-8eff-9072f75a229a")
+		(uuid "e2b80cc8-3bbb-4a7e-9c2e-b9bee2926d9a")
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 162.56 82.55)
+			(xy 121.92 60.96) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5414472-d7b5-4889-87d4-44e1d2cfb705")
+		(uuid "e864542c-dbca-49c6-98e3-265161a4299a")
 	)
 	(wire
 		(pts
-			(xy 52.07 96.52) (xy 72.39 96.52)
+			(xy 21.59 22.86) (xy 21.59 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d95db46c-4db2-4829-a615-203a3da056a9")
+		(uuid "eb74e257-0bd8-4ec9-aa67-141714ab6dd3")
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 184.15 82.55)
+			(xy 223.52 30.48) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dab770b7-c855-44e2-b361-45267681d98e")
+		(uuid "eb8d69f5-f30f-4ebb-8972-9a97220e5551")
 	)
 	(wire
 		(pts
-			(xy 207.01 53.34) (xy 207.01 57.15)
+			(xy 223.52 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dac55a23-e080-451a-b335-33275e5dae69")
+		(uuid "ebc9ec25-e1f1-4486-9e89-6e4206d26022")
 	)
 	(wire
 		(pts
-			(xy 118.11 53.34) (xy 140.97 53.34)
+			(xy 50.8 63.5) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc805370-cc49-4366-a121-c2b3695cbf07")
+		(uuid "ec626472-202a-46e0-998c-d1199925cfc0")
 	)
 	(wire
 		(pts
-			(xy 229.87 50.8) (xy 229.87 53.34)
+			(xy 48.26 54.61) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddb7b33a-31c5-4bb1-b7aa-f009cd586411")
+		(uuid "ed5920b1-34d5-4421-9e4a-95c9fac54341")
 	)
 	(wire
 		(pts
-			(xy 162.56 19.05) (xy 184.15 19.05)
+			(xy 78.74 44.45) (xy 92.71 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e22828bd-3432-4428-b4bc-b0d97773ba79")
+		(uuid "f478924d-70d7-4897-ad05-a8ea3c906abc")
 	)
 	(wire
 		(pts
-			(xy 27.94 19.05) (xy 27.94 34.29)
+			(xy 200.66 38.1) (xy 200.66 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2fdcc07-5102-4360-9e88-aee2e51ab45e")
+		(uuid "f4c3c102-d9e8-4168-a79f-720b3ef9c7a5")
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 72.39 19.05)
+			(xy 246.38 53.34) (xy 242.57 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e47bc17b-e5b8-4873-8611-0b17e61ddb4e")
+		(uuid "f4f4db76-dc40-475d-9111-d3e9fc462a1d")
 	)
 	(wire
 		(pts
-			(xy 85.09 38.1) (xy 99.06 38.1)
+			(xy 50.8 44.45) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e56905ac-e471-4f72-99d8-80ac098f1b5d")
+		(uuid "f51c799d-bd89-4248-9d5a-f14bdfa932ce")
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 52.07 64.77)
+			(xy 121.92 68.58) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e76d2690-c77a-46a4-a673-26943cafeaf7")
+		(uuid "f8787659-61f7-4ce2-8b94-fe53ac16227a")
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 118.11 96.52)
+			(xy 134.62 88.9) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7b33c59-55a5-4c1f-8b59-3b456605e40d")
+		(uuid "f880c35b-8c8d-442b-b714-41263a13761b")
 	)
 	(wire
 		(pts
-			(xy 229.87 19.05) (xy 252.73 19.05)
+			(xy 40.64 25.4) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee1b6a42-859e-4e99-ab5c-cd164e2ad29a")
+		(uuid "faa74450-79d2-47d6-958b-be27b03d8864")
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 72.39 96.52)
+			(xy 187.96 68.58) (xy 187.96 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f198849e-612c-4336-8445-028a5394add6")
+		(uuid "faaeeafa-ead7-4a19-a335-8d4767210639")
 	)
 	(wire
 		(pts
-			(xy 252.73 53.34) (xy 252.73 57.15)
+			(xy 223.52 86.36) (xy 223.52 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f59bb142-544c-4e6e-9a0d-cf66dfea967c")
+		(uuid "fac70635-310d-4773-8da5-d4aa5cafcf53")
 	)
 	(wire
 		(pts
-			(xy 118.11 53.34) (xy 118.11 57.15)
+			(xy 233.68 59.69) (xy 218.44 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5b1a601-3e53-4bcd-b0bf-6f598f6733b2")
+		(uuid "fadf6398-0679-4e0b-8cf4-9cc649b2e5c5")
 	)
 	(wire
 		(pts
-			(xy 57.15 38.1) (xy 57.15 57.15)
+			(xy 177.8 86.36) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5d8e093-5c51-467b-8392-52b09040252d")
+		(uuid "fdb79be7-01b3-403e-ae26-b93df469354f")
 	)
 	(wire
 		(pts
-			(xy 57.15 57.15) (xy 85.09 57.15)
+			(xy 53.34 54.61) (xy 48.26 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5ef8c75-a7bd-4918-bb2c-ef41de51eb8c")
+		(uuid "fed01c66-ec9f-4419-beb2-465481e54ae0")
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 162.56 72.39)
+			(xy 246.38 30.48) (xy 246.38 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc7876dd-fd52-48f7-92ec-7752f4d69b3b")
+		(uuid "fefb207e-c5d5-42c9-9187-eb6e26b7528a")
 	)
 	(symbol
 		(lib_id "Timer:SA555P")
-		(at 72.39 43.18 0)
+		(at 66.04 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2557,7 +3538,7 @@
 		(fields_autoplaced yes)
 		(uuid "01df1cf2-28eb-4c70-8816-d935cdf53c00")
 		(property "Reference" "U1"
-			(at 74.5333 30.48 0)
+			(at 68.1833 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +3547,7 @@
 			)
 		)
 		(property "Value" "SA555P"
-			(at 74.5333 33.02 0)
+			(at 68.1833 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
-			(at 88.9 53.34 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 93.98 53.34 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
-			(at 72.39 43.18 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,8 +3607,8 @@
 			(uuid "fc5b9a7e-6ba8-476b-af37-96143f5e3866")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
 					(reference "U1")
 					(unit 1)
 				)
@@ -2635,84 +3616,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 229.87 62.23 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "076b4dfb-6996-4080-9e16-76b6650dd045")
-		(property "Reference" "SW6"
-			(at 231.14 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 231.14 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 229.87 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
-		)
-		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
-		)
-		(pin "3"
-			(uuid "440f3fe8-5088-4564-91ad-1da0e579f43b")
-		)
-		(pin "4"
-			(uuid "80476210-7195-4ff3-a07a-a0df8be38893")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 52.07 96.52 0)
+		(at 45.72 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2720,8 +3625,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bea9585-504a-4e62-882f-6030c5baf22a")
-		(property "Reference" "#PWR01"
-			(at 52.07 102.87 0)
+		(property "Reference" "#PWR02"
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +3635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 101.6 0)
+			(at 45.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +3643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 96.52 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 96.52 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +3661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 96.52 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,161 +3673,9 @@
 			(uuid "1008cf8c-aba4-454b-a796-e0e6ad4f9ec4")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 184.15 62.23 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ce752c9-9285-42a7-b025-14a2c923f0e3")
-		(property "Reference" "SW4"
-			(at 185.42 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 185.42 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 184.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a4")
-		)
-		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6f")
-		)
-		(pin "3"
-			(uuid "8bc88f1b-8a86-4541-8149-9a1448aa7a3d")
-		)
-		(pin "4"
-			(uuid "2c03ebd9-94da-4ede-9895-f0c262e395c8")
-		)
-		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 184.15 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d4333b2-2027-41b1-8b7c-85942d829636")
-		(property "Reference" "SW4"
-			(at 185.42 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 185.42 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ff814d5-d51e-4108-a042-499f0d70343f")
-		)
-		(pin "2"
-			(uuid "857d6528-c2da-4d59-918e-e614d726dc31")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW4")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2930,15 +3683,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 76.2 0)
+		(at 134.62 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1e636929-06d3-4089-a7d3-4ac9d911bccd")
-		(property "Reference" "R4"
-			(at 143.51 74.9299 0)
+		(property "Reference" "R9"
+			(at 137.16 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +3700,7 @@
 			)
 		)
 		(property "Value" "24k"
-			(at 143.51 77.4699 0)
+			(at 137.16 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 139.192 76.2 90)
+			(at 132.842 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 76.2 0)
+			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3727,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 76.2 0)
+			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,119 +3743,51 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R4")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 252.73 62.23 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27c38d26-ab2f-4568-bf8a-0795b375a8c2")
-		(property "Reference" "SW7"
-			(at 254 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 254 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 252.73 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a5")
-		)
-		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea70")
-		)
-		(pin "3"
-			(uuid "d26d32ad-e39b-4aaa-b76c-405b725f47a5")
-		)
-		(pin "4"
-			(uuid "e4867885-d162-4115-b695-80922ed985ce")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 162.56 45.72 90)
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 250.19 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ed1d2f4-2911-4c0d-aa84-1af83b824d3b")
-		(property "Reference" "SW3"
-			(at 163.83 44.4499 90)
+		(uuid "334e870b-35dc-4503-a8b4-7b034b0bc1b2")
+		(property "Reference" "S7"
+			(at 250.19 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 163.83 46.9899 90)
+		(property "Value" "TL2201EEYA"
+			(at 250.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 45.72 0)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,8 +3795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 45.72 0)
+		(property "Description" ""
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,66 +3804,201 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 162.56 45.72 0)
+		(property "MF" "E-Switch"
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4ccaf0fd-098e-43ad-bd79-39cc870a0979")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "2d54da08-199e-413c-8c46-d4dbfc0fa779")
+			(uuid "f9ae4e8a-c9dd-4353-a365-127228d848d6")
+		)
+		(pin "5"
+			(uuid "cfaa88d8-729b-44b1-83c6-ebd4fa7ad6ac")
+		)
+		(pin "1"
+			(uuid "be27cdd6-378c-4f05-a9f5-3b1f1f49c384")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c5")
+			(uuid "c42b6c85-e1c4-4b26-9a88-cedc8e1b71e8")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8de")
+			(uuid "de0eca11-a665-412a-a5d1-bcc28ad2775f")
+		)
+		(pin "6"
+			(uuid "02d9216a-2729-4959-bfe8-09f86b94540a")
 		)
 		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW3")
+			(project ""
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 140.97 62.23 90)
-		(unit 2)
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 137.16 60.96 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c3dfc5c-d135-4e09-9869-555e0f2a3366")
-		(property "Reference" "SW2"
-			(at 142.24 60.9599 90)
+		(uuid "3ae24f24-f5b7-451f-b60d-e4447c858d15")
+		(property "Reference" "S2"
+			(at 137.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 142.24 63.4999 90)
+		(property "Value" "TL2201EEYA"
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 62.23 0)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,8 +4006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 135.89 62.23 0)
+		(property "Description" ""
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,66 +4015,201 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 140.97 62.23 0)
+		(property "MF" "E-Switch"
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a6")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea71")
+			(uuid "836dfedc-7f26-46e9-8959-5221549df3c2")
+		)
+		(pin "5"
+			(uuid "eb1ecd22-4bb3-4402-b5c3-31efb60eceb7")
+		)
+		(pin "1"
+			(uuid "78fdbffe-6111-40c9-b466-6db0057b88aa")
 		)
 		(pin "3"
-			(uuid "73988bec-ad47-4ff0-b822-bc82086a05e6")
+			(uuid "5fe1011e-b21a-4152-bfbe-dc3ee73ad1db")
 		)
 		(pin "4"
-			(uuid "fb7bceec-46f2-470d-8f3d-555a2146baa1")
+			(uuid "e9332142-e885-41b0-89ae-8341b1ae6a1e")
+		)
+		(pin "6"
+			(uuid "4bf3ac5a-2582-4405-b8b4-e1c2354d4b5e")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW2")
-					(unit 2)
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S2")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 118.11 62.23 90)
-		(unit 2)
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 203.2 60.96 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54dcbd3b-ae26-407d-a38a-0fe6d4d019cc")
-		(property "Reference" "SW1"
-			(at 119.38 60.9599 90)
+		(uuid "431eb4ee-c110-41c3-8ca5-73b729d1acb0")
+		(property "Reference" "S5"
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 119.38 63.4999 90)
+		(property "Value" "TL2201EEYA"
+			(at 203.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 62.23 0)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,8 +4217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 62.23 0)
+		(property "Description" ""
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,39 +4226,166 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 118.11 62.23 0)
+		(property "MF" "E-Switch"
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a2")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6d")
+			(uuid "692daadd-e571-4c5f-b152-fc7b4434ce60")
+		)
+		(pin "5"
+			(uuid "d722bb92-7605-48fc-82cd-d5b8d097bb08")
+		)
+		(pin "1"
+			(uuid "62e3f811-6cb3-4700-98b0-f35c42e5a79e")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c6")
+			(uuid "fa8256be-039d-4230-a10d-058c71d03309")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8df")
+			(uuid "7a213946-238f-44c9-b9de-92d4893aca6e")
+		)
+		(pin "6"
+			(uuid "12217c0f-08c2-4231-9da4-503ad6b4cd24")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW1")
-					(unit 2)
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S5")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 27.94 0)
+		(at 246.38 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3311,8 +4393,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54e4c39d-1e8f-4598-bbff-8270d408cbd1")
-		(property "Reference" "R13"
-			(at 255.27 26.6699 0)
+		(property "Reference" "R7"
+			(at 248.92 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +4403,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 255.27 29.2099 0)
+			(at 248.92 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +4412,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 250.952 27.94 90)
+			(at 244.602 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +4421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 27.94 0)
+			(at 246.38 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +4430,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 27.94 0)
+			(at 246.38 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,8 +4446,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R13")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3373,7 +4455,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 27.94 0)
+		(at 156.21 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3381,8 +4463,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5be08db3-ea3e-492d-b89a-d28bab584f2e")
-		(property "Reference" "R5"
-			(at 165.1 26.6699 0)
+		(property "Reference" "R3"
+			(at 158.75 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +4473,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 165.1 29.2099 0)
+			(at 158.75 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +4482,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 160.782 27.94 90)
+			(at 154.432 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +4491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 27.94 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +4500,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 27.94 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,8 +4516,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R5")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3443,7 +4525,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 27.94 0)
+		(at 223.52 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3451,8 +4533,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6068b649-d8df-4b52-9ea1-cbc84e75412d")
-		(property "Reference" "R11"
-			(at 232.41 26.6699 0)
+		(property "Reference" "R6"
+			(at 226.06 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +4543,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 232.41 29.2099 0)
+			(at 226.06 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 228.092 27.94 90)
+			(at 221.742 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 27.94 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 27.94 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,8 +4586,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R11")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3513,7 +4595,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 27.94 0)
+		(at 134.62 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3521,8 +4603,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1097e9-725c-4c82-a77f-2136315f5d6b")
-		(property "Reference" "R3"
-			(at 143.51 26.6699 0)
+		(property "Reference" "R2"
+			(at 137.16 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +4613,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 143.51 29.2099 0)
+			(at 137.16 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 139.192 27.94 90)
+			(at 132.842 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 27.94 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +4640,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 27.94 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,8 +4656,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R3")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3583,7 +4665,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 68.58 0)
+		(at 45.72 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3591,8 +4673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73885fd8-7b40-4b37-9609-ccc97a8ebc12")
-		(property "Reference" "C1"
-			(at 55.88 67.3099 0)
+		(property "Reference" "C2"
+			(at 49.53 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +4683,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 69.8499 0)
+			(at 49.53 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 53.0352 72.39 0)
+			(at 46.6852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +4701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 68.58 0)
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +4710,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 68.58 0)
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,9 +4725,9 @@
 			(uuid "1aef97de-ea8c-4075-94fd-6c416bb742aa")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "C1")
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3653,15 +4735,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 76.2 0)
+		(at 177.8 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7a2bee89-fbcc-4554-9712-9c51d4efd863")
-		(property "Reference" "R8"
-			(at 186.69 74.9299 0)
+		(property "Reference" "R11"
+			(at 180.34 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +4752,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 186.69 77.4699 0)
+			(at 180.34 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +4761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 182.372 76.2 90)
+			(at 176.022 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 76.2 0)
+			(at 177.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +4779,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 76.2 0)
+			(at 177.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,8 +4795,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R8")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3722,7 +4804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 27.94 0)
+		(at 200.66 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3730,8 +4812,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824f57e6-a081-41d8-a839-b0c0b9bae1bc")
-		(property "Reference" "R9"
-			(at 209.55 26.6699 0)
+		(property "Reference" "R5"
+			(at 203.2 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +4822,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 209.55 29.2099 0)
+			(at 203.2 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +4831,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 205.232 27.94 90)
+			(at 198.882 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +4840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 27.94 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +4849,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 27.94 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,84 +4865,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 118.11 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87fc85c2-358d-4c67-9fd2-58a3967b8492")
-		(property "Reference" "SW1"
-			(at 119.38 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 119.38 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a7")
-		)
-		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea72")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c7")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e0")
-		)
-		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW1")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3868,7 +4874,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 27.94 0)
+		(at 111.76 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3877,7 +4883,7 @@
 		(fields_autoplaced yes)
 		(uuid "8967d701-c1e4-4775-8030-24701dd953b0")
 		(property "Reference" "R1"
-			(at 120.65 26.6699 0)
+			(at 114.3 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +4892,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 120.65 29.2099 0)
+			(at 114.3 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +4901,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 116.332 27.94 90)
+			(at 109.982 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 27.94 0)
+			(at 111.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4919,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 27.94 0)
+			(at 111.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,8 +4934,8 @@
 			(uuid "82cbf0eb-81d9-4070-b059-10d30ffec98a")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
 					(reference "R1")
 					(unit 1)
 				)
@@ -3937,236 +4943,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 162.56 62.23 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cd82e1e-5dcc-4684-a48d-cca8ef2f8e5e")
-		(property "Reference" "SW3"
-			(at 163.83 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 163.83 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 162.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a8")
-		)
-		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea73")
-		)
-		(pin "3"
-			(uuid "cd3ffbbe-4ec1-4e20-a04e-54d35c12f3ac")
-		)
-		(pin "4"
-			(uuid "802b12c0-8474-4532-b831-b6bf80a800bf")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 207.01 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90cde7d1-3a82-4688-b2df-20393cb21e0c")
-		(property "Reference" "SW5"
-			(at 208.28 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 208.28 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 207.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ec64ae0-55d5-472d-bc8a-66c1bee9b7c5")
-		)
-		(pin "2"
-			(uuid "1747afc8-99fc-4253-8f69-660551bdb68b")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c8")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e1")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 252.73 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e80e851-7604-47bf-bb5c-547c3695d180")
-		(property "Reference" "SW7"
-			(at 254 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 254 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6f63a8f-9a5f-41fc-99f8-7700a284819d")
-		)
-		(pin "2"
-			(uuid "bf70b8c9-57a0-4e7e-862c-6fe07c98ebc5")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c9")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e2")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1043:1043")
-		(at 27.94 41.91 270)
+		(at 21.59 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4175,7 +4953,7 @@
 		(fields_autoplaced yes)
 		(uuid "b414ff25-19eb-4db7-aa17-bbe7a3a9fa3b")
 		(property "Reference" "BT1"
-			(at 31.75 40.0049 90)
+			(at 25.4 46.3549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4962,7 @@
 			)
 		)
 		(property "Value" "1043"
-			(at 31.75 42.5449 90)
+			(at 25.4 48.8949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4971,7 @@
 			)
 		)
 		(property "Footprint" "1043:BAT_1043"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4999,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +5009,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "14.86mm"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +5019,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Keystone"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +5029,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +5039,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/1043/Keystone/view-part/?ref=eda"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +5049,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +5059,7 @@
 			)
 		)
 		(property "PARTREV" "J"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +5069,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1043/Keystone/view-part/?ref=snap"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +5079,7 @@
 			)
 		)
 		(property "MP" "1043"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +5089,7 @@
 			)
 		)
 		(property "Description_1" "THM Holder for 18650 Battery"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +5099,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +5109,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +5119,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "1043"
-			(at 27.94 41.91 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,8 +5135,8 @@
 			(uuid "e216be38-c512-4bc4-9c55-08d89b80b9de")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
 					(reference "BT1")
 					(unit 1)
 				)
@@ -4366,92 +5144,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 229.87 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b691b471-a483-4436-870a-9c08bb5584d0")
-		(property "Reference" "SW6"
-			(at 231.14 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 231.14 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 229.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8245d06-b0d5-4a57-931e-6e7ca9c58420")
-		)
-		(pin "2"
-			(uuid "5486ba3c-4418-4c3b-bd08-e1db79db0b4f")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9ca")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e3")
-		)
-		(instances
-			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 118.11 76.2 0)
+		(at 111.76 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cbe84d49-84ae-4c9f-8a7e-21f120356f38")
-		(property "Reference" "R2"
-			(at 120.65 74.9299 0)
+		(property "Reference" "R8"
+			(at 114.3 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +5162,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 120.65 77.4699 0)
+			(at 114.3 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +5171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 116.332 76.2 90)
+			(at 109.982 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +5180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 76.2 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +5189,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 76.2 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,8 +5205,219 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R2")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 158.75 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf047966-d683-40f5-90e0-9331bf3a9574")
+		(property "Reference" "S3"
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL2201EEYA"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9befd792-10e5-40cb-86b9-11d51447b43b")
+		)
+		(pin "5"
+			(uuid "44e4188f-7530-44ff-a6bb-e31a9a31b50e")
+		)
+		(pin "1"
+			(uuid "99711f00-e9c2-425b-8b56-2e08f0432506")
+		)
+		(pin "3"
+			(uuid "a3ad013a-a6fa-4ef6-9fb1-c0e7190dcc2d")
+		)
+		(pin "4"
+			(uuid "21e10b86-47ea-4f7c-af49-ea6c80bfc192")
+		)
+		(pin "6"
+			(uuid "85cb2ce9-9e0f-49e0-bbf3-4edda750659f")
+		)
+		(instances
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -4512,15 +5425,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 76.2 0)
+		(at 223.52 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d15e979f-7875-4aee-93b4-f61f97754cbe")
-		(property "Reference" "R12"
-			(at 232.41 74.9299 0)
+		(property "Reference" "R13"
+			(at 226.06 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +5442,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 232.41 77.4699 0)
+			(at 226.06 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 228.092 76.2 90)
+			(at 221.742 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +5460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 76.2 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +5469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 76.2 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,8 +5485,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R12")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4581,15 +5494,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 76.2 0)
+		(at 156.21 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d21a63f3-cac8-4787-8ec1-73d21a216da2")
-		(property "Reference" "R6"
-			(at 165.1 74.9299 0)
+		(property "Reference" "R10"
+			(at 158.75 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +5511,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 165.1 77.4699 0)
+			(at 158.75 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +5520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 160.782 76.2 90)
+			(at 154.432 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 76.2 0)
+			(at 156.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 76.2 0)
+			(at 156.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,8 +5554,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R6")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4650,7 +5563,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 99.06 46.99 0)
+		(at 92.71 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4658,8 +5571,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76709e4-698e-4b15-94ce-7940c8d7eee8")
-		(property "Reference" "C3"
-			(at 102.87 44.8309 0)
+		(property "Reference" "C1"
+			(at 96.52 51.1809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +5581,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 102.87 47.3709 0)
+			(at 96.52 53.7209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +5590,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
-			(at 100.0252 50.8 0)
+			(at 93.6752 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +5599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 46.99 0)
+			(at 92.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +5608,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 99.06 46.99 0)
+			(at 92.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,85 +5623,9 @@
 			(uuid "1ca8b06b-9936-4eed-9dff-39bca776aebd")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 140.97 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db8abc6b-dc94-4e15-8b1c-9aa59190cba4")
-		(property "Reference" "SW2"
-			(at 142.24 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 142.24 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 140.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd2030fc-bea0-450b-81b0-8b31caebd2ba")
-		)
-		(pin "2"
-			(uuid "88bccc16-15f9-43f3-8857-f225f85a03f2")
-		)
-		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9cb")
-		)
-		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e4")
-		)
-		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW2")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4796,15 +5633,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 76.2 0)
+		(at 200.66 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "db9aa5fc-f5a9-4688-956e-71699d89cc96")
-		(property "Reference" "R10"
-			(at 209.55 74.9299 0)
+		(property "Reference" "R12"
+			(at 203.2 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +5650,7 @@
 			)
 		)
 		(property "Value" "18k"
-			(at 209.55 77.4699 0)
+			(at 203.2 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5659,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 205.232 76.2 90)
+			(at 198.882 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +5668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 76.2 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +5677,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 76.2 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,52 +5693,41 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R10")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Swadge_Parts:Buzzer")
-		(at 101.6 40.64 0)
+		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
+		(at 35.56 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e02f0ba0-1301-442e-bee7-0ca3daf03dce")
-		(property "Reference" "BZ1"
-			(at 105.41 39.3699 0)
+		(uuid "dd6c4919-0793-48f1-b3f0-7442b83afcc6")
+		(property "Reference" "SW1"
+			(at 35.56 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 105.41 41.9099 0)
+		(property "Value" "SW_SPDT_1825232-1"
+			(at 35.56 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Swadge-Parts:Buzzer_12.5x7.5"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE"
-			(at 100.965 38.1 90)
+		(property "Footprint" "Swadge-Parts:1825232-1"
+			(at 35.56 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,8 +5735,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
-			(at 101.6 40.64 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
+			(at 35.56 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,8 +5744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "433-1285-ND"
-			(at 110.49 29.21 0)
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,8 +5753,17 @@
 				(hide yes)
 			)
 		)
-		(property "Cost100" "49"
-			(at 107.95 34.29 0)
+		(property "Digikey" "A107673-ND"
+			(at 35.56 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost100" "45"
+			(at 35.56 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5772,131 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 107.95 26.67 0)
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
+			(at 35.56 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393937"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f03507c6-85f0-465d-be85-2dcff35edf26")
+		)
+		(pin "4"
+			(uuid "dfd87804-1a43-4027-bd27-1f9e23ac98b8")
+		)
+		(pin "5"
+			(uuid "f3bec96b-4407-4189-bef1-6fcf0890c8ae")
+		)
+		(pin "1"
+			(uuid "d0b9bac7-5d95-4e23-89a9-9d2d81d34026")
+		)
+		(pin "3"
+			(uuid "ec9ac10c-16af-4883-8206-788c0d738570")
+		)
+		(instances
+			(project ""
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:Buzzer")
+		(at 95.25 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02f0ba0-1301-442e-bee7-0ca3daf03dce")
+		(property "Reference" "BZ1"
+			(at 99.06 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 99.06 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Swadge-Parts:Buzzer_12.5x7.5"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aliexpress.com/item/33004601553.html?spm=a2g0s.9042311.0.0.56834c4diZwZhE"
+			(at 94.615 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "433-1285-ND"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost100" "49"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,8 +5911,8 @@
 			(uuid "0cffc472-4375-4878-812e-7084de8dad08")
 		)
 		(instances
-			(project ""
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
 					(reference "BZ1")
 					(unit 1)
 				)
@@ -4961,35 +5920,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 207.01 62.23 90)
-		(unit 2)
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 180.34 60.96 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e44b5c65-b101-4e60-9abf-f90f36c02b6e")
-		(property "Reference" "SW5"
-			(at 208.28 60.9599 90)
+		(uuid "e3269466-bcca-4ac7-87e2-56def5c4df60")
+		(property "Reference" "S4"
+			(at 180.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 208.28 63.4999 90)
+		(property "Value" "TL2201EEYA"
+			(at 180.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 62.23 0)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,8 +5964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 62.23 0)
+		(property "Description" ""
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,39 +5973,166 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 207.01 62.23 0)
+		(property "MF" "E-Switch"
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a9")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea74")
+			(uuid "1773224f-5c88-4c77-b877-105af6318369")
+		)
+		(pin "5"
+			(uuid "0ee2f9be-3da6-4ad1-b44d-84993a8fbe72")
+		)
+		(pin "1"
+			(uuid "f4cf71f5-4128-4eaa-a9eb-e6f60fb04d19")
 		)
 		(pin "3"
-			(uuid "86937027-9211-40db-a8bc-2956ea31a422")
+			(uuid "99ac60d0-d92e-41f3-b1e9-87bbf747da85")
 		)
 		(pin "4"
-			(uuid "69f46ef5-f2a7-43c4-9d64-f548fa568a50")
+			(uuid "8262cc90-d1d4-48dc-8e4d-10bbd60d2eb8")
+		)
+		(pin "6"
+			(uuid "15a8f517-dc82-4d00-b7ea-4e916454129e")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "SW5")
-					(unit 2)
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S4")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 76.2 0)
+		(at 246.38 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,7 +6140,7 @@
 		(dnp no)
 		(uuid "eae0e82f-a5c5-4aa5-a7bd-72073fa99cc4")
 		(property "Reference" "R14"
-			(at 255.27 74.9299 0)
+			(at 248.92 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +6149,7 @@
 			)
 		)
 		(property "Value" "14k"
-			(at 255.27 77.4699 0)
+			(at 248.92 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +6158,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 250.952 76.2 90)
+			(at 244.602 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +6167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 76.2 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +6176,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 76.2 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +6192,7 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
 					(reference "R14")
 					(unit 1)
 				)
@@ -5107,7 +6201,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 50.8 90)
+		(at 96.52 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5115,8 +6209,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca56829-85b7-487a-89e9-d8e34d87cc48")
-		(property "Reference" "#PWR02"
-			(at 109.22 50.8 0)
+		(property "Reference" "#PWR01"
+			(at 102.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +6219,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 50.7999 90)
+			(at 100.33 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +6228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 50.8 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +6237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 50.8 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +6246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 50.8 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,8 +6259,219 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "#PWR02")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 226.06 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2562e0f-7d66-4f7c-87ec-621ead7a54c9")
+		(property "Reference" "S6"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL2201EEYA"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fce89ff-e155-42ba-b86a-0635b20d4619")
+		)
+		(pin "5"
+			(uuid "2065fddc-0458-4a6c-8e39-54a3b3d98586")
+		)
+		(pin "1"
+			(uuid "2971a59c-a921-4ace-9aa9-51b61564be33")
+		)
+		(pin "3"
+			(uuid "18c9a1aa-af37-4485-8d87-e21c977d3ab9")
+		)
+		(pin "4"
+			(uuid "6d4dc575-a4c7-4ec1-80dc-9de6890a698f")
+		)
+		(pin "6"
+			(uuid "52c63bbb-8886-41b2-9f8a-de158cc52a44")
+		)
+		(instances
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -5174,7 +6479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 27.94 0)
+		(at 177.8 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5182,8 +6487,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f33428-aac9-4eb4-8391-3fcc41401e7e")
-		(property "Reference" "R7"
-			(at 186.69 26.6699 0)
+		(property "Reference" "R4"
+			(at 180.34 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +6497,7 @@
 			)
 		)
 		(property "Value" "910"
-			(at 186.69 29.2099 0)
+			(at 180.34 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +6506,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
-			(at 182.372 27.94 90)
+			(at 176.022 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +6515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 27.94 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +6524,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 27.94 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,8 +6540,219 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "R7")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL2201EEYA:TL2201EEYA")
+		(at 114.3 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3cd902d-ca93-4795-a46c-d8662c58c61d")
+		(property "Reference" "S1"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL2201EEYA"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL2201EEYA:SW_TL2201EEYA"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.0mm"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=eda"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "-"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2201EEYA/E-Switch/view-part/?ref=snap"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2201EEYA"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pushbutton Switch, TL2201, DPDT, ON-ON, Plunger for Cap, 100mA, 30VDC,PC Pin | E-Switch TL2201EEYA"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2201EEYA"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb04459e-0c30-4403-8e97-2a09f4622c3a")
+		)
+		(pin "5"
+			(uuid "8ac422cc-a0da-4a46-99de-f5e7c9a88014")
+		)
+		(pin "1"
+			(uuid "df664257-aa99-4123-879f-941b7ee02081")
+		)
+		(pin "3"
+			(uuid "eab0d729-a769-43c5-9a0a-6ffcc38bb8ea")
+		)
+		(pin "4"
+			(uuid "1ff0908e-c53e-4edc-bf44-59cc37f103fa")
+		)
+		(pin "6"
+			(uuid "692c8683-5864-4bfc-8c81-486b73c74466")
+		)
+		(instances
+			(project "Solder_Panel_Idea1"
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5244,7 +6760,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 87.63 0)
+		(at 111.76 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5252,8 +6768,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e3db4b-224b-4607-b2dc-bda8ed90cbe2")
-		(property "Reference" "C2"
-			(at 121.92 86.3599 0)
+		(property "Reference" "C3"
+			(at 115.57 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +6778,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 121.92 88.8999 0)
+			(at 115.57 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +6787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 119.0752 91.44 0)
+			(at 112.7252 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +6796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 87.63 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +6805,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 87.63 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,8 +6821,8 @@
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
-				(path "/dd6279d4-43d7-43e4-9231-fa72758d4140"
-					(reference "C2")
+				(path "/7362c57b-4b77-49e6-8ae3-5269a841651c"
+					(reference "C3")
 					(unit 1)
 				)
 			)
