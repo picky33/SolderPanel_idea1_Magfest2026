@@ -2832,10 +2832,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a4")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6f")
 		)
 		(pin "3"
 			(uuid "8bc88f1b-8a86-4541-8149-9a1448aa7a3d")
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 139.192 76.2 90)
 			(effects
 				(font
@@ -3053,10 +3053,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a5")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea70")
 		)
 		(pin "3"
 			(uuid "d26d32ad-e39b-4aaa-b76c-405b725f47a5")
@@ -3135,10 +3135,10 @@
 			(uuid "2d54da08-199e-413c-8c46-d4dbfc0fa779")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c5")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8de")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
@@ -3205,10 +3205,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a6")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea71")
 		)
 		(pin "3"
 			(uuid "73988bec-ad47-4ff0-b822-bc82086a05e6")
@@ -3287,10 +3287,10 @@
 			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6d")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c6")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8df")
 		)
 		(instances
 			(project ""
@@ -3329,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 250.952 27.94 90)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 160.782 27.94 90)
 			(effects
 				(font
@@ -3469,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 228.092 27.94 90)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 139.192 27.94 90)
 			(effects
 				(font
@@ -3609,7 +3609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
 			(at 53.0352 72.39 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 182.372 76.2 90)
 			(effects
 				(font
@@ -3748,7 +3748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 205.232 27.94 90)
 			(effects
 				(font
@@ -3846,16 +3846,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a2")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a7")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6d")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea72")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c7")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e0")
 		)
 		(instances
 			(project ""
@@ -3894,7 +3894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 116.332 27.94 90)
 			(effects
 				(font
@@ -3992,10 +3992,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a8")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea73")
 		)
 		(pin "3"
 			(uuid "cd3ffbbe-4ec1-4e20-a04e-54d35c12f3ac")
@@ -4074,10 +4074,10 @@
 			(uuid "1747afc8-99fc-4253-8f69-660551bdb68b")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c8")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e1")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
@@ -4150,10 +4150,10 @@
 			(uuid "bf70b8c9-57a0-4e7e-862c-6fe07c98ebc5")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c9")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e2")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
@@ -4427,10 +4427,10 @@
 			(uuid "5486ba3c-4418-4c3b-bd08-e1db79db0b4f")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9ca")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e3")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
@@ -4468,7 +4468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 116.332 76.2 90)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 228.092 76.2 90)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 160.782 76.2 90)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 100.0252 50.8 0)
 			(effects
 				(font
@@ -4780,10 +4780,10 @@
 			(uuid "88bccc16-15f9-43f3-8857-f225f85a03f2")
 		)
 		(pin "3"
-			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9c4")
+			(uuid "8cb470ee-2f37-466f-8786-1cbb9314c9cb")
 		)
 		(pin "4"
-			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8dd")
+			(uuid "3ad82f5d-0fc5-4fcd-948d-03058006a8e4")
 		)
 		(instances
 			(project "Solder_Panel_Idea1"
@@ -4821,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 205.232 76.2 90)
 			(effects
 				(font
@@ -5016,10 +5016,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a3")
+			(uuid "2c7a5432-130b-4ae4-9cc2-3df707e5e7a9")
 		)
 		(pin "2"
-			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea6e")
+			(uuid "c0e7854d-b946-484c-aca2-d9b92e27ea74")
 		)
 		(pin "3"
 			(uuid "86937027-9211-40db-a8bc-2956ea31a422")
@@ -5063,7 +5063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 250.952 76.2 90)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 182.372 27.94 90)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
 			(at 119.0752 91.44 0)
 			(effects
 				(font
